@@ -1,6 +1,6 @@
-"""Hype Machine for EX01"""
+"""Hype Machine with concatenation for EX01."""
 
-__author__ = 730481343
+__author__ = "730481343"
 
 name: str = input("What is your name? ")
 print(name + " is amazing!")

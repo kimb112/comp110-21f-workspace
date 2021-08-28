@@ -1,6 +1,6 @@
-"""Numeric Operators (exponents, decimal division, floor division, modulus) for EX01"""
+"""Numeric Operators (exponents, decimal division, floor division, modulus) using numbers input by user."""
 
-__author__ = 730481343
+__author__ = "730481343"
 
 left_number_input: str = input("Left-hand side: ")
 right_number_input: str = input("Right-hand side: ")

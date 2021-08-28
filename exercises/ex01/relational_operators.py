@@ -1,6 +1,6 @@
-"""Relational Operators with input"""
+"""Using relational operators (less than, greater than or equal, equal to, not equal to) to test the relationship between two numbers input by user."""
 
-__author__ = 730481343
+__author__ = "730481343"
 
 left_number_input: str = input("Left-hand side: ")
 right_number_input: str = input("Right-hand side: ")
