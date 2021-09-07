@@ -8,17 +8,21 @@ repeat_times: int = int(input("How many times do you want to repeat it? "))
 
 counter: int = 0
 
+beat_string: str = ""
+
 if repeat_times < 0: 
     print("No beat...")
 
 else: 
     while counter < repeat_times: 
-        while repeat_times != counter:
-            repeat_beats: str = beat
-            final_beats: str = repeat_beats + "5"
+        if counter != repeat_times - 1:
+            beat_string = beat_string + beat + " "
             counter = counter + 1
-            print(final_beats)
+        else: 
+            beat_string = beat_string + beat
+            counter = counter + 1
+
+    print(beat_string)
         
-        # final_beat = final_beats
-        counter = counter + 1
+    
         
