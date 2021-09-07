@@ -10,9 +10,8 @@ counter: int = 0
 
 beat_string: str = ""
 
-if repeat_times < 0: 
+if repeat_times <= 0: 
     print("No beat...")
-
 else: 
     while counter < repeat_times: 
         if counter != repeat_times - 1:

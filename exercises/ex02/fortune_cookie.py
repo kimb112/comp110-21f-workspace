@@ -6,7 +6,7 @@ from random import randint
 
 print("Your fortune cookie says...")
 
-random_number: int = randint(1,4)
+random_number: int = randint(1, 4)
 
 if random_number < 3:  
     if random_number == 1: 
